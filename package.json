@@ -1,0 +1,55 @@
+{
+  "name": "discord-client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3000/",
+  "dependencies": {
+    "@metamask/providers": "^8.1.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "crypto-browserify": "^3.12.0",
+    "ethers": "^5.6.8",
+    "firebase": "^9.8.1",
+    "json-query": "^2.2.2",
+    "merge-images": "^2.0.0",
+    "npm-reinstall": "^3.1.0",
+    "random": "^3.0.6",
+    "random-js": "^2.1.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/create-html-element": "^2.1.0",
+    "@types/react": "^18.0.9",
+    "@types/webpack-env": "^1.17.0"
+  }
+}
