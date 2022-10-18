@@ -1,0 +1,77 @@
+#full_div{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #071733;
+}
+
+#div_auth{
+
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#welcome_text_1{
+
+    position: absolute;
+    color: #ffffff;
+    width: 60%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -45%);
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+}
+
+#welcome_text_2{
+
+    position: absolute;
+    color: #ffffff;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+}
+
+#logo {
+
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#button_auth {
+
+    position: relative;
+    width: 200px;
+    height: 50px;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #46a0d9;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#p_auth {
+
+    margin-left: 75px;  
+}

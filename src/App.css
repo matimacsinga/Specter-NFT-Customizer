@@ -1,0 +1,725 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #071733;
+  height: 230vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.headImage {
+
+  position: absolute; 
+  margin-left: 400px;
+  
+}
+
+#non_mandatory_div {
+
+  border: 0px solid red;
+  height: 15%;
+  margin-top: 20%;
+  margin-bottom: -27%;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.feetImage {
+
+  position: absolute;
+  margin-left: 400px;
+  
+}
+
+#gallery_text {
+
+  position: absolute;
+  left: 5%;
+  top: 107%;
+}
+
+#gallery{
+
+  position: absolute;
+  height: 80%;
+  left: 5%;
+  width: 90%;
+  top: 125%;
+  background-color: #071733;
+  border: 1px solid #9c9e9f; 
+  justify-content: center;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+}
+
+#colors_overlay{
+
+  position: absolute; 
+  background-color: #071733;
+  width: 35.35%;
+  height: 10%;
+  right: 4%;
+  top: 88%;
+  border: 0px solid whitesmoke;
+}
+
+#select_text_0 {
+
+  position: absolute;
+  top: -2%;
+  left: 5%;
+}
+
+#select_paragraph_0 {
+
+  position: absolute;
+  top: 4%;
+  left: 5%;
+  font-size: 70%; 
+  vertical-align: 0%;
+  color: #9c9e9f;
+  font-style: italic;
+}
+
+#select_text {
+
+  position: absolute;
+  top: -1%;
+  left: 5%;
+}
+
+#select_text_2 {
+
+  margin-bottom: -4%;  
+}
+
+#above_pfp_text{
+
+  position: absolute;
+  top: 18%;
+  right: 31%;  
+  font-size: 70%;
+  color: #46a0d9;
+  font-style: italic; 
+}
+
+#select_paragraph {
+
+  position: absolute;
+  top: 6%;
+  left: 5%;
+  font-size: 70%; 
+  vertical-align: 0%;
+  color: #9c9e9f;
+  font-style: italic;
+}
+
+#select_paragraph_2 {
+
+  
+  font-size: 70%; 
+  vertical-align: 0%;
+  color: #9c9e9f;
+  font-style: italic;
+}
+
+#select_paragraph_3 {
+
+  position: absolute;
+  top: 114%;
+  left: 5%;
+  font-size: 70%;
+  vertical-align: 0%;
+  color: #9c9e9f;
+  font-style: italic;  
+}
+
+#buttons_overlay{
+
+  position: absolute;
+  left: 5%;
+  top: 15%;;
+  height: 80%;
+  width: 35%;
+  background-color: #071733;
+  border: 1px solid #9c9e9f;  
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.defaultImage {
+
+  position: absolute;
+  max-width: 70%;
+  max-height: 70%;  
+  z-index: 2;
+  right: 5%;
+  top: 15%;
+  border: 1px solid #9c9e9f;
+}
+
+#faceImage {
+
+  position: absolute;
+  max-width: 70%;
+  max-height: 70%;
+  right: 5%;
+  top: 15%;
+  z-index: 1;
+  border: 1px solid #9c9e9f;
+}
+
+#eyesImage {
+
+  position: absolute;
+  max-width: 70%;
+  max-height: 70%;
+  right: 5%;
+  top: 15%;
+  z-index: 2;
+}
+
+#eyebrowsImage {
+
+  position: absolute;
+  max-width: 70%;
+  max-height: 70%;
+  right: 5%;
+  top: 15%;
+  z-index: 1; 
+}
+
+#noseImage {
+
+  position: absolute;
+  max-width: 70%;
+  max-height: 70%;
+  right: 5%;
+  top: 15%;
+  z-index: 1;  
+}
+
+#mouthImage {
+
+  position: absolute;
+  max-width: 70%;
+  max-height: 70%;
+  right: 5%;
+  top: 15%;
+  z-index: 4; 
+}
+
+#clothesImage {
+
+  position: absolute;
+  max-width: 70%;
+  max-height: 70%;
+  right: 5%;
+  top: 15%;
+  z-index: 4;  
+}
+
+#hairImage {
+
+  position: absolute;
+  max-width: 70%;
+  max-height: 70%;
+  right: 5%;
+  top: 15%;
+  z-index: 4;  
+}
+
+.mergedImage {
+
+  position: absolute;
+  top: 150%;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.mergedImage:not([src]) {
+
+  visibility: hidden;  
+}
+
+.select_buttons {
+
+  background-color: #46a0d9; 
+  color: #ffffff; 
+  border: 1px solid #ffffff;    
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  top: 50%;
+  width: 15%;
+  height: 3%;
+}
+
+#logo_image{
+
+  position: absolute;
+  top: 2%;
+  right: 7%;
+  height: 4%;
+  width: 12%;
+}
+
+#send_button {
+
+  position: absolute;
+  top: 210%;  
+  right: 7%;
+  width: 8%;
+  height: 7%;
+  font-size: 85%;
+  background-image: linear-gradient(to right, #46a0d9 0%, #0d4c73 51%, #0d4c73 100%);
+  color: white;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.select_buttons:hover {
+
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.button_descriptor{
+
+  text-align: left;
+  margin: 20px 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+}
+
+#under_mandatory{
+
+  text-align: left;
+  margin-top: 25%;
+  margin-left: 5%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+}
+
+#mergeButton {
+
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#addButton {
+
+  margin-top: 50px;
+}
+
+.face_buttons_div{
+
+  
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: block; 
+  overflow-x: auto;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.gallery_buttons_div{
+
+  width: 100%;
+  height: 260px;
+  align-self: center;
+  margin-left: 10px;
+  margin-top: 0px;
+  display: block; 
+  overflow-x: auto;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.gallery_buttons_div::-webkit-scrollbar {
+
+  width: 20px;  
+  height: 7px;
+  margin-top: 5px;
+}
+
+/* Track */
+.gallery_buttons_div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.gallery_buttons_div::-webkit-scrollbar-thumb {
+  background: #46a0d9; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.gallery_buttons_div::-webkit-scrollbar-thumb:hover {
+  background: #46a0d9; 
+}
+
+.face_buttons_div::-webkit-scrollbar {
+
+  width: 20px;  
+  height: 7px;
+  margin-top: 5px;
+}
+
+/* Track */
+.face_buttons_div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.face_buttons_div::-webkit-scrollbar-thumb {
+  background: #46a0d9; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.face_buttons_div::-webkit-scrollbar-thumb:hover {
+  background: #46a0d9; 
+}
+
+#buttons_overlay::-webkit-scrollbar {
+
+  width: 9px;  
+}
+
+/* Track */
+#buttons_overlay::-webkit-scrollbar-track {
+  
+  box-shadow: inset 0 0 5px grey;
+}
+ 
+/* Handle */
+#buttons_overlay::-webkit-scrollbar-thumb {
+  background: #46a0d9; 
+}
+
+/* Handle on hover */
+#buttons_overlay::-webkit-scrollbar-thumb:hover {
+  background: #1c1d1d; 
+}
+
+
+#gallery::-webkit-scrollbar {
+
+  width: 15px;  
+}
+
+/* Track */
+#gallery::-webkit-scrollbar-track {
+  
+  background: #9c9e9f;
+}
+ 
+/* Handle */
+#gallery::-webkit-scrollbar-thumb {
+  background: #38393a; 
+}
+
+/* Handle on hover */
+#gallery::-webkit-scrollbar-thumb:hover {
+  background: #1c1d1d; 
+}
+
+.face_buttons{
+
+  width: 20%;
+  height: 20%;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  border: 1px solid #9c9e9f;
+  border-radius: 10px;  
+}
+
+.neweyes_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.wrap_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.techjacket_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.chunojacket_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.spysuit_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none; 
+}
+
+.formalsuit_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.faceshape_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.astrojacket_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.camovest_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.quantumjacket_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none; 
+}
+
+.quantumpassjacket_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.eyebrows_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.bubblegum_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.womanmouth_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.bandana_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.dreads_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;
+  
+}
+
+.spiky_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;  
+  
+}
+
+.short_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;  
+  
+}
+
+.bob_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;  
+  
+}
+
+.bun_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;  
+}
+
+.braid_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;  
+  
+}
+
+.fringe_color_buttons{
+
+  width: 7.5%;
+  height: 52.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0px;
+  display: none;  
+  
+}
+
+.face_buttons:hover {
+
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.face_buttons:disabled{
+
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.2;
+  display: none;
+}
+
+#face_buttons_div_2{
+
+  display: none;
+}
+
+.accessory_buttons {
+
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  border: 1px solid #9c9e9f;
+  border-radius: 10px; 
+  transition-duration: 0.5s;
+}
+
+.accessory_buttons:hover {
+
+  transform: scale(1.5);
+  background-color: whitesmoke;
+}
